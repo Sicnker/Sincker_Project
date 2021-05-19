@@ -1,0 +1,226 @@
+body, html
+{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    font-size: 24px;
+}
+.light-theme hr{
+    border: 3;
+     height: 2px;
+}
+.i{
+    margin: auto;
+}
+.wrapper
+{
+    width: 100%;
+}
+.header
+{
+    background: #ccc;
+}
+.light-theme .img4{
+    float: left;
+    margin: 4px 7px 2px 0px;
+    height: 530px;
+    text-align: left;
+    font-weight: 432px;
+}
+.header_div
+{
+    padding: 5px;
+}
+.button1
+{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px 25px;
+    margin: 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.main__content
+{
+    width: 80%;
+    margin: 0 auto;
+} 
+
+.theme-button{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 25px;
+    margin: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+
+}
+/* Светлая тема -----------------------------------------------------------*/
+.light-theme {
+  color: #111;
+  background-color: #f4f4f4;
+}
+.light-theme .header
+{
+    background: #4a76a8;
+    color: #f4f4f4;
+}
+.light-theme .button1 
+{
+    color: #f4f4f4;
+    background: #4a76a8;
+    font-family: Arial;
+}
+.light-theme .button1:hover
+{
+    background: #4f7faf;
+}
+.light-theme .h1{
+font-family: Arial;
+padding: 15px 25px;
+text-align: center;
+font-size: 24px;
+}
+.light-theme .theme-button{
+    color: #f4f4f4;
+    background: #4a76a8;
+    font-family: Arial;
+}
+.light-theme table {
+font-size: 14px;
+border-collapse: relative;
+text-align: left;
+  margin: auto;
+}
+.light-theme th, td:first-child {
+background: #4a76a8;
+color: #f4f4f4;
+padding: 10px 20px;
+}
+.light-theme th, td {
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: white;
+}
+.light-theme td {
+background: #D8E6F3;
+}
+.light-theme th:first-child, td:first-child {
+text-align: center;
+}
+.light-theme .name{
+    text-align: center;
+font-family: Arial;
+padding: 15px 25px;
+text-align: center;
+font-size: 24px;
+}
+.light-theme .name1{
+    text-align: center;
+font-family: Arial;
+padding: 15px 25px;
+text-align: center;
+font-size: 16px;
+}
+.light-theme .name2{
+font-family: Arial;
+padding: 15px 25px;
+font-size: 16px;
+}
+/* Тёмная тема -----------------------------------------------------------*/
+.dark-theme {
+  color: #f2f2f2;
+  background-color: #17161a;
+}
+.dark-theme .header
+{
+    background: #373737;
+    color: #f4f4f4;
+}
+.dark-theme .button1
+{
+    color: #f4f4f4;
+    background: #373737;
+    font-family: Lato;
+}
+.dark-theme .button1:hover
+{
+    background: #444;
+}
+.dark-theme .h1 {
+    text-align: center;
+font-family: Lato;
+padding: 15px 25px;
+text-align: center;
+font-size: 24px;
+}
+.dark-theme .theme-button{
+    color: #f4f4f4;
+    background: #373737;
+    font-family: Lato;
+}
+.dark-theme table{
+  font-size: 14px;
+  width: 640px;
+  text-align: left;
+  border-collapse: collapse;
+  background: #373737;
+  margin: auto;
+
+}
+.dark-theme th {
+  color: #EDB749;
+  border-bottom: 1px solid #37B5A5;
+  padding: 12px 17px;
+  background: #373737 ;
+}
+.dark-theme td {
+ background: #373737 ;
+  color: #CAD4D6;
+  border-bottom: 1px solid #37B5A5;
+  border-right:1px solid #37B5A5;
+  padding: 7px 17px;
+}
+.dark-theme tr:last-child td {
+  border-bottom: none;
+  background: #373737 ;
+}
+.dark-theme td:last-child {
+  border-right: none;
+  background: #373737 ;
+}
+.dark-theme tr:hover td {
+  text-decoration: underline;
+  background: #373737 ;
+}
+.dark-theme .name{
+    text-align: center;
+font-family: Lato;
+padding: 15px 25px;
+text-align: center;
+font-size: 24px;
+}
+.dark-theme .name1{
+    text-align: center;
+font-family: Lato;
+padding: 15px 25px;
+text-align: center;
+font-size: 16px;
+}
+.dark-theme .name2{
+font-family: Lato;
+padding: 15px 25px;
+font-size: 16px;
+}
+.dark-theme .img4{
+    float: left;
+    margin: 4px 7px 2px 0px;
+    height: 530px;
+    text-align: left;
+    font-weight: 432px;
+}
